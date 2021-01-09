@@ -9,6 +9,10 @@ html {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+body {
+    font-size: 1.6rem;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -45,18 +49,39 @@ nav li a:hover {
 
 .products {
     background-image: url('https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c10/images/curve.png');
-    height: 200px;
+    max-height: 50 px;
     background-size: cover;
     background-position: center top;
-    padding: 15%;
+    padding: 20%;
     display: flex;
 }
 
 .product {
+    margin-top: -240px;
     padding: 10px;
+    
 }
 
 .product .content {
-    padding: 20px;
+    padding: 15px;
     background-color: white;
+    box-shadow: 4px 8px 20px 0px;
+}
+
+.img-content {
+    text-align: center;
+}
+
+.main-button {
+    padding: 10px;
+    width: 100%;
+    font-size: 1.7rem;
+    color: white;
+    background-color: #74cc2d;
+    border: none;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: #5e9e22;
 }
