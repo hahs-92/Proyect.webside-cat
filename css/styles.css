@@ -35,3 +35,28 @@ nav li a {
 nav li a:hover {
     color: white;
 }
+
+/* ----------------------main section--------------------- */
+
+.main-section {
+    padding: 15%;
+    text-align: center;
+}
+
+.products {
+    background-image: url('https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c10/images/curve.png');
+    height: 200px;
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+}
+
+.product {
+    padding: 10px;
+}
+
+.product .content {
+    padding: 20px;
+    background-color: white;
+}
