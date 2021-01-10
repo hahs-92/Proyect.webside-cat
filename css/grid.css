@@ -54,3 +54,21 @@
 .col-11 {
     width: calc(var(--col-width) * 11);
 }
+
+/* selecciona todos los atributos class cuyos valores tengan una subcadena col- */
+[class^="col-"]{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 900px){
+    .row{
+        display: inherit;
+
+    }
+
+    [class^="col-"]{
+        width: 100%;
+    }
+
+}
