@@ -1,0 +1,12 @@
+ main {
+     padding: 4%;
+ }
+ 
+ .products {
+     display: inherit;
+     height: auto;
+ }
+
+ .product {
+     margin-top: auto;
+ }

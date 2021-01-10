@@ -65,7 +65,7 @@ nav li a:hover {
 
 .products {
     background-image: url('https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c10/images/curve.png');
-    max-height: 50 px;
+    /* max-height: 50 px; */
     background-size: cover;
     background-position: center top;
     padding: 20%;
@@ -73,7 +73,7 @@ nav li a:hover {
 }
 
 .product {
-    margin-top: -300px;
+    margin-top: -250px;
     padding: var(--space);
     
 }
@@ -82,6 +82,10 @@ nav li a:hover {
     padding: 15px;
     background-color: var(--white-color);
     box-shadow: var(--shadow);
+}
+
+.product p {
+    margin-bottom: 10px;
 }
 
 .img-content {
