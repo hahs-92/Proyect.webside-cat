@@ -9,6 +9,7 @@
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col-1 {
@@ -41,6 +42,8 @@
 
 .col-8 {
     width: calc(var(--col-width) * 8);
+    display: flex;
+    align-items: center;
 }
 
 .col-9 {
@@ -61,7 +64,12 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 900px){
+
+footer{
+    width: 100%;
+}
+
+/* @media (max-width: 900px){
     .row{
         display: inherit;
 
@@ -71,4 +79,26 @@
         width: 100%;
     }
 
+} */
+
+@media (max-width:458px){
+
+    [class^="col-"]{
+        padding-top:15px ;
+    }
+
+    .col-4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        order: 1;
+    }
+
+    .col-8 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }
