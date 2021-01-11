@@ -188,13 +188,18 @@ footer {
 /* ----------------------vista venta---------------- */
 
 .container {
-    padding-top: 100px;
+    padding: 90px 0;
 }
 
 .modulo-pago {
+    padding: 20px;
     background-color: var(--white-color);
     box-shadow: var(--shadow);
     padding: var(--space);
+}
+
+.row .col-4 {
+    align-self: center;
 }
 
 .modulo-pago-img{
@@ -202,6 +207,35 @@ footer {
     width: 100%;
     max-width: 150px;
 }
+
+form {
+    padding: 0px 40px ;
+}
+
+.modulo-pago input {
+    margin-top: 15px;
+    padding: 20px;
+    width: 100%;
+    height: 40px;
+    font-size: var(--normal);
+    outline: none;
+    border: none;
+    border: 1px solid var(--black-color);
+    border-radius:5px ;
+}
+
+.modulo-pago input:nth-last-child(1){
+    padding: 5px;
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.modulo-pago input:nth-last-child(1):hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+
 
 
 @media (max-width:400px){
