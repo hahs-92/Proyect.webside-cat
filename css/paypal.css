@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--black-color);
+    text-align: center;
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.content-paypal a {
+    color: var(--green-color);
+}
+
