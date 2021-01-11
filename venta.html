@@ -44,10 +44,22 @@
             </div>
             <div class="col-8">
                 <div class="modulo-pago">
-                    <form action="https://google.com/" method="POST">
-                        <input name="name" id="name" type="text" placeholder="Ingrese su nombre">
-                        <input name="email" id="email" type="email" placeholder="Correo electronico">
-                        <input name="phone" id="phone" type="tel" placeholder="Telefono">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TKPMRNBJ6SW4W" method="POST">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="first_name" value="Alexander">
+                        <input type="hidden" name="last_name" value="Hernadnez">
+                        <input type="hidden" name="address1" value="calle11">
+                        <input type="hidden" name="address2" value="sanluis">
+                        <input type="hidden" name="city" value="Mexico">
+                        <input type="hidden" name="state" value="Colorado">
+                        <input type="hidden" name="zip" value="19312">
+                        <input type="hidden" name="night_phone_a" value="610">
+                        <input type="hidden" name="night_phone_b" value="555">
+                        <input type="hidden" name="email" value="alexandre_2420@outlook.com">
+
+                        <input name="first_name" id="first_name" type="text" placeholder="Ingrese su nombre" required>
+                        <input name="email" id="email" type="email" placeholder="Correo electronico" required>
+                        <input name="night_phone_a" id="phone" type="tel" placeholder="Telefono" required>
                         <input type="submit" value="Submit" >
                     </form>
                     
