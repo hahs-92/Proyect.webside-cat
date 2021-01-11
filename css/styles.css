@@ -184,6 +184,26 @@ footer {
     font-size: var(--normal);
 }
 
+
+/* ----------------------vista venta---------------- */
+
+.container {
+    padding-top: 100px;
+}
+
+.modulo-pago {
+    background-color: var(--white-color);
+    box-shadow: var(--shadow);
+    padding: var(--space);
+}
+
+.modulo-pago-img{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 150px;
+}
+
+
 @media (max-width:400px){
     nav {
         justify-content: center;
